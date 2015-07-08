@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	</head>
+	<body>
+		<button name="btn-left"> Hit Me! </button>
+		<button name="btn-right"> Eh... </button>
+
+		<script type="text/javascript">
+			window.onload = function(){
+				var bothButtons = $('button');
+				bothButtons.on("click", function(clickEvent){
+					console.log(clickEvent)
+					var clickedButton = clickEvent.target;
+					var name = clickedButton.name;
+					if (name === 'btn-left'){
+						alert("You clicked the left button!");
+					} else if (name === 'btn-right') {
+						alert("You clicked the right button!");
+					} else{
+						alert("wtf did you do????");
+					}
+				});
+			};
+		</script>
+	</body>
+</html>
