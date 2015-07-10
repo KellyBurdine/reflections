@@ -9,3 +9,6 @@ The staging area shows only the files that are ready to be committed to the repo
 
 How can you use the staging area to make sure you have one commit per logical change?
 You can review the changes in the staging area by using git diff to make sure that you are not commiting more than one logical change. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful if you want to push a change to test it without changing the master. That way you don't push a bug to the master branch that may be in production. It also helps if you want to try taking the code into a new direction that you are not sure if it will work. 
