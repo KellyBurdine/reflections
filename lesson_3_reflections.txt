@@ -12,3 +12,6 @@ Describe the differences between forks, clones, and branches. When would you use
 
  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
  It would be much more difficult to collaborate without Git or GitHub, because it would be very easy for someone to save over each other's changes. In addition, it would be difficult to go make to previous versions. It would also be more difficult to share files. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have? Anytime you are collaborating with someone else or you are working on a new feature then you should create and work off a branch so you don't create problems in your master which you know works properly. The downside is that it can create merge conflicts which can get a bit confusing at times but this allows you to clearly see the merge conflicts and resolve accordingly without causing problems on master. 
+
