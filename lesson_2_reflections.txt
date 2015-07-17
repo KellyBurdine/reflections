@@ -12,3 +12,12 @@ You can review the changes in the staging area by using git diff to make sure th
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches are helpful if you want to push a change to test it without changing the master. That way you don't push a bug to the master branch that may be in production. It also helps if you want to try taking the code into a new direction that you are not sure if it will work. 
+
+How do the diagrams help you visualize the branch structure?
+It is not easy to understand how the branches relate to master through the terminal, but visualizing it in a diagram clearly show how the branches are connected to the master branch. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is a combination of all the changes that do not conflict with each other. We represent it by to branches converging together in the diagram. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging is good, because it makes merging faster and easier. However, it is possible you could merge something that you didn't want to merge. Merging manually allows you to resolve conflicts in the script. 
